@@ -1,0 +1,43 @@
+.card{
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    width: 30vw;
+    max-width: 80vw;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.tiderCards{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.swipe{
+    position: absolute;
+}
+.card h3{
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    background-size: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+
+
+/* resposiv code is here */
+
+
+@media screen and (max-width: 768px) {
+   .card{
+       width: 80vw;
+   }
+  }

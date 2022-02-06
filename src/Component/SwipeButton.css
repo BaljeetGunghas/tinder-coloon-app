@@ -1,0 +1,37 @@
+.SwipeButton{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 10px;
+}
+.swifeAll{
+    padding: 1vw !important;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.SwipeButton_ReplayIcon {
+  
+    color: rgb(219, 121, 56) !important;
+}
+
+.SwipeButton_CloseIcon {
+  
+    color: rgb(247, 27, 27) !important;
+}
+
+.SwipeButton_FavoriteIcon {
+  
+    color: rgb(41, 143, 27) !important;
+}
+
+.SwipeButton_StarIcon {
+
+    color: rgb(98, 174, 236) !important;
+}
+
+.SwipeButton_FlashOnIcon {
+ 
+    color: rgb(107, 75, 122) !important;
+}

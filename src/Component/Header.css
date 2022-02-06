@@ -1,0 +1,15 @@
+.mainn {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    justify-content: space-between;
+    /* padding: 10px; */
+    background-color: #ffece5;
+    padding: 0 15px;
+    width: 100vw;
+}
+
+.logo {
+    object-fit: inherit;
+    height: 100px;
+}
